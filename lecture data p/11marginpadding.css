@@ -1,0 +1,22 @@
+.padding{
+    background-color: orange;
+    border:solid 2px;
+    /* padding: 100px;
+    padding: 100px 50px;
+    padding: 100px 50px 70px 40px;
+    padding-left:100px; */
+    /* padding: 0 50px 0 100px; */
+}
+
+.margin{
+    background-color: rgb(255,0,185);
+    border:solid 2px;
+    margin: 100px;
+    margin: 100px 50px;
+}
+
+.box{
+    border: 2px solid;
+    width: 600px;
+    margin: 0 0 0 350px;
+}

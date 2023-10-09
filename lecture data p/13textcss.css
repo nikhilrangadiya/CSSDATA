@@ -1,0 +1,36 @@
+.Text-Color{
+    color: red  ;
+} 
+
+.Text-Alignment{ 
+    color: blue;
+    width: 400px ;
+    text-align: center;
+    text-align: right ;
+    text-align: left;
+    text-align: justify;
+}
+.Text-Decoration{
+    /* text-decoration: underline;
+    letter-spacing: 10px; */
+    line-height: 50px;
+    word-spacing: 10px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.Text-Transformation{
+    text-transform: capitalize ;
+    text-transform: lowercase;
+    text-transform: uppercase;
+}
+
+.Text-Indentation{
+    text-indent: 100px;
+}
+
+h1{
+     text-shadow: 5px 5px 5px red;
+}

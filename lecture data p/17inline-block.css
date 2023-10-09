@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    background-color: gray  ;
+
+}
+
+ul li{
+    display: inline-block;
+    margin: 20px;
+}
+
+.box{
+    width: 30%;
+    border: solid 5px rgb(6, 47, 38);
+    display: inline-block;
+}
