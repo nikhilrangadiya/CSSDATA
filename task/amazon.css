@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+section{
+    background-color: brown;
+    height: 800px;
+}
+.contaner{
+    background-color: black;
+
+}
+.logo{
+    color: aliceblue;
+    width: 200px;
+}
+.logo img{
+    width: 100%;
+}
