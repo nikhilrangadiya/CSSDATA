@@ -13,6 +13,8 @@
     src: url(./font/poppins/Poppins-Light.ttf);
 }
 /* font end */
+
+
 .container{
     width: 1150px;
     /* border: solid 2px; */
@@ -48,8 +50,8 @@ img{
 .col-55{
     width: 55%;
 }
-.col-35{
-    width: 35%;
+.col-30{
+    width: 30%;
 }
 .col-45{
     width: 45%;
@@ -57,12 +59,16 @@ img{
 .col-40{
     width: 40%;
 }
+.col-33{
+    width: 33.33%;
+}
 .logo{
     width: 150px;
 }
 .logo img{
     width: 100%;
 }
+/* header start */
 
 .navbar{
     padding: 10px 0;
@@ -96,6 +102,11 @@ img{
     margin: 0 0 0 -10px;
     border: none;
 }
+
+/* header end */
+
+/* section 1 start  */
+
 .home-sec{
     background-color: #fcc302;
     padding: 70px 0;
@@ -140,6 +151,10 @@ img{
 .img-dog img{
     width: 100%;
 }
+
+/* section 1 end */
+
+/* section 2 start  */
 
 .sec-two-main{
     padding: 100px 0;
@@ -188,13 +203,60 @@ img{
     top: 250px;
     right: 250px;
     z-index: -1;
+    
+}
+
+/* section 2 end */
+
+/* section 3 start */
+.sec-three{
+    background-color:#fcc302;
+    padding: 100px 0;
+}
+.row-three{
+    display: flex;
+}
+.sec-three-text{
+    text-align: center;
+}
+.sec-three-text h1{
+    color: white;
+    font-weight: 700;
+    font-size: 75px;
+    font-family: 'poppins-bold';
+}
+
+.sec-three-text p{
+    color: white;
+    font-weight: 400;
+    font-size: 25px;
+    font-family: 'poppins-light';
+    margin: 30px 0 ;
+    line-height: 30px;
+}
+.row-three h2{
+    color: white;
+    font-weight: 600;
+    font-size: 34px;
+    font-family: 'poppins-bold';
+    text-align: center;
 
 }
-.bg-of-dog-four{
-    background-image:linear-gradient(#fcc20284 ,#fcc20285,#fcc2026d) ,url(./img/sec-4dog.png);
-    min-height: 400px;
-    background-repeat: no-repeat;
+
+.row-three p{
+    color: white;
+    font-weight: 400;
+    font-size: 22px;
+    font-family: 'poppins-light';
+    text-align: center;
+    line-height: 30px;
+
 }
+
+/* section 3 end */
+
+/* section 4 start  */
+
 
 .sec-four-main{
     padding: 100px 0;
@@ -211,6 +273,11 @@ img{
     margin: 30px 0;
     
 }
+.bg-of-dog-four{
+    background-image:linear-gradient(#fcc20284 ,#fcc20285,#fcc2026d) ,url(./img/sec-4dog.png);
+    min-height: 400px;
+    background-repeat: no-repeat;
+}
 .mini-box-four{
     width: 250px;
     height: 200px;
@@ -222,6 +289,8 @@ img{
     z-index: -1;
 
 }
+/* section 4 end */
+
 
 
 
