@@ -221,31 +221,35 @@ img{
 }
 .sec-three-text h1{
     color: white;
-    font-weight: 700;
+    width: 70%;
     font-size: 75px;
+    margin: 0 auto;
+    line-height: 70px;
     font-family: 'poppins-bold';
 }
 
 .sec-three-text p{
     color: white;
-    font-weight: 400;
+    width: 50%;
     font-size: 25px;
     font-family: 'poppins-light';
-    margin: 30px 0 ;
+    margin: 0 auto ;
+    padding: 20px 0;
     line-height: 30px;
 }
 .row-three h2{
     color: white;
-    font-weight: 600;
+    /* font-weight: 600; */
     font-size: 34px;
     font-family: 'poppins-bold';
     text-align: center;
+    /* line-height: 20px; */
 
 }
 
 .row-three p{
     color: white;
-    font-weight: 400;
+    font-weight: 40%;
     font-size: 22px;
     font-family: 'poppins-light';
     text-align: center;
@@ -291,6 +295,131 @@ img{
 }
 /* section 4 end */
 
+/* section 5 start */
+
+.sec-five{
+    background-color:#fcc302;
+    padding: 100px 0;
+}
+.row-five{
+    display: flex;
+}
+
+.sec-five-text{
+    text-align: center;
+}
+
+.sec-five-text h2{
+    color: white;
+    width: 50%;
+    font-size: 75px;
+    font-family: 'poppins-light';
+    margin: 0 auto ;
+    padding: 20px 0;
+    line-height: 30px;
+}
+.sec-five-text p{
+    color: white;
+    width: 50%;
+    font-size: 25px;
+    font-family: 'poppins-light';
+    margin: 0 auto ;
+    padding: 50px 0;
+    line-height: 30px;
+}
+
+.row-five h3{
+    color: white;
+    width: 60%;
+    font-size: 42px;
+    font-family: 'poppins-light';
+    margin: 0 auto ;
+    padding: 30px 0;
+    line-height: 30px;
+}
+.btn-gp{
+    justify-content: center;
+    display: flex;
+}
+.btn-gp .btn-3{
+    font-family: 'poppins-light';
+    background-color: #00bec9;
+    color: white;
+    border: none;
+    /* width: 140px;
+    height: 40px; */
+    border-radius: 30px;
+    padding:5px 20px;
+    font-size: 25px;
+    font-weight: 600;
+    
+
+}
+.line{
+    text-decoration: line-through;
+    margin: 0px 10px;
+}
+/* section 5 end  */
+
+/* section 6 :start */
+
+.sec-six{
+    padding: 100px 0;
+}
+.sec-six-text{
+    text-align: center;
+}
+.row-six{
+    display: flex;
+}
+.sec-six-text h3{
+    width: 70%;
+    font-size: 60px;
+    font-family: 'poppins-bold';
+    margin: 0 auto ;
+    padding: 15px 0;
+    line-height: 30px;
+}
+.sec-six-text p{
+    width: 50%;
+    font-size: 25px;
+    font-family: 'poppins-light';
+    margin: 0 auto ;
+    padding: 40px 0;
+    line-height: 30px;
+}
+
+.row-six h4{
+    font-size: 20px;
+    font-family: 'poppins-bold';
+    text-align: center;
+    padding: 10px 0 0 0 ;
+}
+
+.row-six p{
+    font-size: 18px;
+    font-family: 'poppins-light';
+    text-align: center;
+    line-height: 25px;
+    padding: 0px 0px 10px 0px;
+}
+
+.sec-six-icon{
+    text-align: center;
+}
+.sec-six-icon svg{
+  /* padding: 10px; */
+  background-color: #daac00;
+  color: white;
+  border-radius: 50%;
+
+}
+.sec-six-icon ul li{
+    display:inline-block;
+    padding: 10px;
+
+}
 
 
+/* section 6 end */
 
