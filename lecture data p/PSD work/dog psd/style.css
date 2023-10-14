@@ -465,6 +465,54 @@ header{
 
 /* sec- 8 start  */
 
+
+.sec-eight{
+    padding: 100px 0;
+}
+.sec-eight-text{
+    text-align: center;
+}
+.row-eight{
+    display: flex;
+}
+.sec-eight-text h3{
+    width: 70%;
+    font-size: 60px;
+    font-family: 'poppins-bold';
+    margin: 0 auto ;
+    padding: 15px 0;
+    line-height: 30px;
+}
+.sec-eight-text p{
+    width: 50%;
+    font-size: 25px;
+    font-family: 'poppins-light';
+    margin: 0 auto ;
+    padding: 40px 0;
+    line-height: 30px;
+}
+
+.row-eight h5{
+    font-size: 25px;
+    font-family: 'poppins-bold';
+    text-align: left;
+    line-height: 30px;
+    padding: 10px 0 ;
+
+}
+.row-eight p{
+    font-size: 18px;
+    font-family: 'poppins-light';
+    text-align: left;
+    line-height: 30px;
+    padding: 10px 0 ;
+
+}
+.row-eight .p-1{
+    color:#00bec9;
+    font-size: 20px;
+}
+
  /* sec-8 end */
 
 /* footer start */
@@ -549,7 +597,7 @@ header{
 .foot-input-fl button{
     color: white;
     font-size: 20px;
-    padding: 15px 40px 20px 40px; 
+    padding: 15px 40px 21px 40px; 
     background-color: #00bec9;
     margin: 0px 0 0 -10px;
     border: none;
