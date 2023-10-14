@@ -470,7 +470,7 @@ header{
 /* footer start */
 
 .footer{
-    height: 700px;
+    /* height: 700px; */
     background-color: #343434;
 }
 .main-foot{
@@ -480,25 +480,103 @@ header{
     font-size: 30px ;
     color: white;
 
+
+
 }
+.about-links{
+    font-family: 'poppins-light';
+    padding: 10px;
+}
+.about-links h4{
+    padding: 10px;
+}
+.about-links ul a{
+    color: white;
+    padding: 3px 0px;
+    text-decoration: none;
+}
+
+.about-Services{
+    font-family: 'poppins-light';
+    padding: 10px;
+}
+.about-Services h4{
+    padding: 10px;
+}
+.about-Services ul a{
+    color: white;
+    padding: 3px 0px;
+    text-decoration: none;
+}
+
 .main-foot{
     color: white;
-    text-decoration: none;
+    /* text-decoration: none; */
     font-size: 20px;
     display: block;
     margin: 5px 0px ;
      
 }
+.main-foot li{
+    display: block;
+}
+
 .foot-input h5{
+    font-family: 'poppins-bold';
     text-align: right;
     color: white;
     font-size: 40px;
 }
 .foot-input p{
+    font-family: 'poppins-light';
     text-align: right;
     color: white;
     font-size: 20px;
 }
+.foot-input-fl input{
+    padding: 22px ;
+    width: 300px;
+    background-color: #fcc302;
+    border: none;
+    outline: none;
+    
+}
+.foot-input-fl button svg{
+    fill: white;
+
+}
+ 
+.foot-input-fl button{
+    color: white;
+    font-size: 20px;
+    padding: 15px 40px 20px 40px; 
+    background-color: #00bec9;
+    margin: 0px 0 0 -10px;
+    border: none;
+}
+.foot-input-fl{
+    text-align: right;
+    margin: 15px 0px;
+}
+
+.foot-icon{
+    text-align: right;
+}
+.foot-icon svg{
+  /* padding: 10px; */
+  background-color: white;
+  border-radius: 50%;
+  padding: 4px;
+  width: 30px;
+  height:30px;
+
+}
+.foot-icon ul li{
+    display:inline-block;
+    padding: 5px;
+
+}
+
 
  /* footer end */
 
