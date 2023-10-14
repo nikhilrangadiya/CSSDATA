@@ -475,6 +475,17 @@ header{
 .row-eight{
     display: flex;
 }
+.col-30 img{
+    width: 100%;
+}
+.col-30>.card-txt{
+    /* border: 1px dotted black; */
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.054);
+}
+.col-30 >.card-txt:hover{
+    /* border: 0px dotted black; */
+    box-shadow: 0px 0px 0px rgba(227, 8, 8, 0.867);
+}
 .sec-eight-text h3{
     width: 70%;
     font-size: 60px;
