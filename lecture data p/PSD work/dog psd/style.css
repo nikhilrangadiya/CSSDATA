@@ -644,7 +644,7 @@ header{
  /*------------------------- media query strat------------------------------------- */
  @media(min-width:992px){
     .container{
-        width: 920px;
+        width: 950px;
     }
     .col-55{
         width: 55%;
@@ -671,7 +671,7 @@ header{
  @media(min-width:1200px){
     .container{
         width: 1150px;
-    }
+    /* }
     .col-55{
         width: 55%;
     }
@@ -690,8 +690,9 @@ header{
     }
     .col-33{
         width: 33.33%;
-    }
+    } */
 
+ }
  }
  /*------------------------- media query end------------------------------------- */
 
