@@ -29,6 +29,15 @@
 .col-33{
     width: 33.33%;
 }
+.col-50{
+    width: 50%;
+}
+.col-40{
+    width: 40%;
+}
+.col-20{
+    width: 20%;
+}
 
 /*<------------------------------- sec-one-start--------------------------------------> */
 .container{
@@ -145,6 +154,8 @@ nav{
     width: 50%;
     padding: 10px 0px 30px 0px;
     margin: 0 auto;
+    text-align: center;
+
 }
 .sec-two-main{
     padding: 50px 0px;
@@ -247,7 +258,8 @@ nav{
     color: #ffffff;
     padding:0px 0px 70px 0px;
     margin: 0 auto;
-    align-items: center;
+    text-align: center;
+
 }
 .sec-five-row img{
     padding: 0px 0px 100px 0px;
@@ -313,9 +325,165 @@ margin: 70px 30px 100px 30px;
 /* <!-- ------------------------ sec-sevan-start------------------------- --> */
 
 .sec-sevan{
-    height: 500px;
-    background-image:linear-gradient(#f64b3c,#f64b3c ,#f64b3c) ,url(./img/sec-7.png);
+    background-image:linear-gradient( #f64c3cc7, #f64c3cc8, #f64c3cb8) ,url(./img/sec-7.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
+.sec-sevan-text p{
+    font-size: 40px;
+    width: 60%;
+    color: #ffffff;
+    text-align: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 150px 0px 10px 0px ;
+}
+.sec-sevan-text h4{
+    color: #ffffff;
+    font-size: 60px;
+    padding: 60px 0px 200px 0px;
+    display: flex;
+    justify-content: center;
+}
+
 /* <!-- ------------------------ sec-sevan-end------------------------- --> */
+
+/* <!-- ------------------------ sec-eight-start------------------------- --> */
+.sec-eight{
+    background-color: #f6eedf;
+    background-image: url(./img/sec-8.png);
+
+}
+.sec-eight-text h1{
+    font-size: 70px;
+    color: #f64b3c;
+    text-align: center;
+    padding: 150px 0px 25px 0px;
+}
+.sec-eight-text p{
+    margin: 0 auto;
+    width: 80%;
+    color: #f64b3c;
+    font-size: 40px;
+    text-align: center;
+    padding: 15px 0px 25px 0px;
+
+}
+.input-fl{
+    /* margin: 0 auto; */
+    display: flex;
+    /* align-items: center;  */
+    justify-content: center;
+    padding: 40px 0px 200px 0px ;
+}
+.input-fl input {
+    border-radius: 30px 0px 0px 30px;
+    padding:20px 300px 20px 20px ;
+    background-color: #ffffff;
+    border: none;
+    outline: none; 
+}
+
+.input-fl button{
+    color: white; 
+    padding: 15px 40px 15px 20px ; 
+    background-color: #f64b3c;
+    text-transform: uppercase;
+    margin: 0 0 0 -15px;
+    border: none;
+    border-radius:0px 30px 30px 0px;
+}
+/* <!-- ------------------------ sec-eight-end------------------------- --> */
+
+/* <!----------------------- footer-start -------------------------------------> */
+footer{
+    padding: 100px 0px 100px 0px;
+    background-color: #222222;
+    display: flex;
+    justify-content: space-between;
+}
+.main-foot li{
+    display: block;
+
+}
+.col-40 h5{
+    font-size: 30px;
+    padding: 30px 0px 10px 0px;
+   
+}
+.col-40 p{
+    font-size: 20px;
+    width: 80%;
+    padding: 0px 0px 10px 10px;
+}
+.main-foot{
+    color: white;
+    font-size: 20px;
+    display: block;
+    margin: 5px 0px ; 
+    padding: 0px 0px 20px 5px ;   
+}
+.foot-icon{
+    text-align: left;
+}
+.foot-icon svg{
+  /* padding: 10px; */
+  background-color: white;
+  border-radius: 50%;
+  padding: 4px;
+  width: 30px;
+  height:30px;
+}
+.foot-icon ul li{
+    display:inline-block;
+    padding: 5px;
+}
+
+.about-links{
+    /* font-family: 'poppins-light'; */
+    padding: 10px;
+}
+.about-links h4{
+    padding: 10px;
+    font-size: 25px;
+}
+.about-links ul a{
+    color: white;
+    padding: 3px 0px;
+    text-decoration: none;
+}
+
+.about-Services{
+    /* font-family: 'poppins-light'; */
+    padding: 10px;
+}
+.about-Services h4{
+    padding: 10px;
+    font-size: 25px;
+
+}
+.about-Services ul a{
+    color: white;
+    padding: 3px 0px;
+    text-decoration: none;
+}
+
+.about-Other{
+    /* font-family: 'poppins-light'; */
+    padding: 10px;
+}
+.about-Other h4{
+    padding: 10px;
+    font-size: 25px;
+
+}
+.about-Other ul a{
+    color: white;
+    padding: 3px 0px;
+    text-decoration: none;
+}
+
+
+/* <!----------------------- footer-end -------------------------------------> */
+
+
