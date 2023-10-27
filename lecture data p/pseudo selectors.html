@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pseudo selectors</title>
+</head>
+<style>
+    /* p::first-letter{
+        font-size: 30px;
+    } */
+    /* p::first-line{
+        background-color: orange;
+    } */
+    /* p::selection{
+        background-color: chocolate;
+    } */
+    /* p::after{
+        content: "~";
+    } */
+    /* p::before{
+        content: "~";
+    } */
+    input:focus{
+        background-color: cornflowerblue;
+    }
+    a:visited{
+        color: goldenrod;
+    }
+    a:active{
+        color: green;
+    }
+    p:hover{
+        background-color:darkturquoise ;
+    }
+    :is(.text-1 , .text-2) p{
+        background-color: red;
+    }
+
+
+</style>
+<body>
+    
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, similique rem deserunt voluptatum asperiores 
+        facere neque illo harum minus aliquid distinctio ipsam? Alias mollitia corporis dolorem? 
+        Fuga minus perferendis voluptatibus.</p>
+        <input type="text">
+        <a href="#">Home</a>
+    <div class="text-1">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum blanditiis saepe est pariatur id debitis eveniet voluptatem veritatis fuga, voluptas quas dolor asperiores accusamus laboriosam illo omnis ratione cupiditate quod.</p>
+    </div>
+    <div class="text-2">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed provident animi minima incidunt quos modi sit totam, architecto beatae doloribus ducimus voluptatum. Pariatur perspiciatis ad quas quae error nulla asperiores.</p>
+    </div>
+</body>
+</html>
