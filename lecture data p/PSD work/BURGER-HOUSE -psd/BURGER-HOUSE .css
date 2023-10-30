@@ -23,13 +23,16 @@
 .po-ab{
     position: absolute;
 }
+.col-45{
+    width: 45%;
+}
 .col-50{
     width: 50%;
 }
 
-img{
+/* img{
     width: 100%;
-}
+} */
 
 
 
@@ -67,10 +70,11 @@ nav{
     .sec-one-row{
         /* align-items: center; */
     }
-.col-50{
+    .col-50{
     padding: 100px 0px 0px 0px;
-}
+    }
     .col-50 p{
+        width: 61%;
         font-size: 20px;
         border: dotted 2px;
         background-color: #ffc045;
@@ -91,8 +95,10 @@ nav{
         color: #3d2514;
         font-weight: 1200;
     }
-    .img-1{
+    .img-1 img{
         width: 750px;
+        display: block;
+        margin: 0 auto;
     }
 
     .img-2{
@@ -102,7 +108,7 @@ nav{
         width: 70px;
         /* position: relative; */
     }
-    #item1{
+    /* #item1{
         position: relative;
         bottom: 320px;
         right: 50px;
@@ -116,4 +122,4 @@ nav{
         position: relative;
         bottom: 690px;
         left: 135px;
-    }
+    } */
