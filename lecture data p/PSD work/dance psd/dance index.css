@@ -30,14 +30,17 @@ header{
 .aic{
     align-items: center;
 }
-.po-rel{
-    position: relative;
-}
-.po-ab{
+.posi-abs{
     position: absolute;
 }
-.col-100{
-    width: 100%;
+.posi-rel{
+    position: relative;
+}
+.col-50{
+    width: 50%;
+}
+.col-33{
+    width: 33.33%;
 }
 
 /*------------------------------------- header start -----------------------------------*/
@@ -46,7 +49,7 @@ header{
     padding: 10px 0;
     /* display: flex; */
     align-items: center;
-    margin: 5px
+    /* margin: 5px */
 }
 .links ul li{
     display: inline-block;
@@ -74,8 +77,263 @@ button svg{
 /* <!-------------------------------- home-sec-strat------------------------------------> */
 .home-sec{
     background-color:#e8631c ;
-    /* padding: 80px; */
+    background-image: url(./img/sec-1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 600px;
+    padding-top:250px;
+
+}
+
+.main-text-one h1{
+    font-size: 100px;
+    font-weight: 400;
+    color: #ffffff;
+    padding-top:20px ;
+}
+.main-text-one p{
+    font-size: 35px;
+    color: #ffffff;
+    padding: 0px 0px 20px 0px;
+}
+.main-text-one input{
+    background-color: #e8631c;
+    color: #ffffff;
+    padding:10px 50px ;
+    font-size: 20px;
 }
 
 
 /* <!-------------------------------- home-sec-end--------------------------------------> */
+
+/* <!--------------------- sec-two-start -------------------------------------> */
+.sec-two{
+    background-color: #e8631c;
+    text-align: center;
+}
+
+.main-text-two h1{
+    font-size: 70px;
+    color: #ffffff;
+    padding: 80px 0px 20px 0px;
+    
+}
+.main-text-two p{
+    font-size: 30px;
+    /* width: 40; */
+    color: #ffffff;
+    padding: 0px 230px ;
+}
+.sec-two-row{
+    display: flex;
+    padding: 60px 0px;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+.card-1 h2{
+    font-size: 40px;
+    color: #ffffff;
+}
+.card-1 p{
+    font-size: 30px;
+    color: #ffffff;
+    font-weight: 200px;
+}
+.card-1{
+    background-color:#303030 ;
+    padding-bottom:15px ;
+    width: 94%;
+}
+.col-33 >.card-1:hover{
+    box-shadow: 10px 10px 10px rgba(252, 251, 251, 0.572);
+}
+
+.card-2 h2{
+    font-size: 40px;
+    color: #ffffff;
+}
+
+.card-2 p{
+    font-size: 30px;
+    color: #ffffff;
+    font-weight: 200px;
+}
+.card-2{
+    background-color:#303030 ;
+    padding-bottom:15px ;
+    width: 94%;
+}
+.col-33 >.card-2:hover{
+    box-shadow: 10px 10px 10px rgba(252, 251, 251, 0.572);
+}
+
+.card-3 h2{
+    font-size: 40px;
+    color: #ffffff;
+}
+.card-3 p{
+    font-size: 30px;
+    color: #ffffff;
+    font-weight: 200px;
+}
+.card-3{
+    background-color:#303030 ;
+    padding-bottom:15px ;
+    width: 94%;
+}
+.col-33 >.card-3:hover{
+    box-shadow: 10px 10px 10px rgba(252, 251, 251, 0.572);
+}
+/* <!--------------------- sec-two-end -------------------------------------> */
+
+
+/* <!----------------------------- sec-three-start -----------------------------> */
+
+.sec-three{
+    background-color: #303030;
+    text-align: center;
+}
+
+.main-text-three h1{
+    font-size: 70px;
+    color: #ffffff;
+    padding: 80px 0px 20px 0px;
+    
+}
+.main-text-three p{
+    font-size: 30px;
+    /* width: 40; */
+    color: #ffffff;
+    padding: 0px 230px ;
+}
+.sec-three-row{
+    display: flex;
+    padding: 60px 0px;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+.card1-1 h2{
+    font-size: 40px;
+    color: #ffffff;
+    padding: 10px 0px;
+
+}
+.card1-1 p{
+    font-size: 20px;
+    padding: 15px 30px 15px 30px;
+    color: #ffffff;
+    font-weight: 200px;
+}
+.card1-1 input{
+    background-color: #303030;
+    color: #ffffff;
+    padding:10px 100px ;
+    font-size: 20px;
+}
+.card1-1{
+    background-color:#e8631c ;
+    padding:50px 0px 20px 0px ;
+    width: 94%;
+}
+/* .col-33 >.card1-1:hover{
+    box-shadow: 10px 10px 10px rgba(252, 251, 251, 0.572);
+} */
+
+.card1-2 h2{
+    font-size: 40px;
+    color: #ffffff;
+    padding: 10px 0px;
+
+}
+
+.card1-2 p{
+    font-size: 20px;
+    padding: 15px 30px 15px 30px;
+    color: #ffffff;
+    font-weight: 200px;
+}
+.card1-2 input{
+    background-color: #303030;
+    color: #ffffff;
+    padding:10px 100px ;
+    font-size: 20px;
+}
+.card1-2{
+    background-color:#e8631c ;
+    padding:50px 0px 20px 0px ;
+    width: 94%;
+}
+/* .col-33 >.card1-2:hover{
+    box-shadow: 10px 10px 10px rgba(252, 251, 251, 0.572);
+} */
+
+.card1-3 h2{
+    font-size: 40px;
+    color: #ffffff;
+    padding: 10px 0px;
+}
+.card1-3 p{
+    font-size: 20px;
+    padding: 15px 30px 15px 30px;
+    color: #ffffff;
+    font-weight: 200px;
+}
+.card1-3 input{
+    background-color: #303030;
+    color: #ffffff;
+    padding:10px 100px ;
+    font-size: 20px;
+}
+.card1-3{
+    background-color:#e8631c ;
+    padding:50px 0px 20px 0px ;
+    width: 94%;
+}
+
+/* <!----------------------------- sec-three-end -----------------------------> */
+
+/* <!------------------------ sec-four-start --------------------------- */ 
+
+.sec-four{
+    background-color: #e8631c;
+}
+.sec-four-row{
+  display: flex;
+
+}
+.sec-f-img {
+left: -80px;
+width: 100%;
+}
+.sec-f-img>img {
+width: 113%;
+}
+
+.main-text-four h1{
+    font-size: 50px ;
+    color: #ffffff;
+    padding: 20px;
+}
+.main-text-four p{
+    font-size: 25px ;
+    color: #ffffff;
+    padding: 10px 20px 20px 20px;
+    width: 450px;
+}
+.main-text-four input{
+    background-color: #303030;
+    color: #ffffff;
+    padding:10px 50px ;
+    font-size: 20px;
+    margin: 20px 0px 0px 20px;
+}
+.main-text-four{
+    padding: 324.5px 0px ;
+}
+ /* <!----------------------------- sec-four-end -----------------------------> */
+ /* <!------------------------ sec-five-start --------------------------- */ --> */
+  
+ /* <!----------------------------- sec-five-end -----------------------------> */

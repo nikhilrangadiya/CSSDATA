@@ -34,10 +34,6 @@
     width: 100%;
 } */
 
-
-
-
-
 .container{
     width: 1200px;
     margin: 0 auto;
@@ -69,9 +65,10 @@ nav{
     }
     .sec-one-row{
         /* align-items: center; */
+        align-items:center;
     }
     .col-50{
-    padding: 100px 0px 0px 0px;
+    /* padding: 100px 0px 0px 0px; */
     }
     .col-50 p{
         width: 61%;
@@ -95,31 +92,18 @@ nav{
         color: #3d2514;
         font-weight: 1200;
     }
-    .img-1 img{
-        width: 750px;
-        display: block;
-        margin: 0 auto;
+    .photo{
+        width: 100%;
     }
+    .photo>img{
+        width: 100%;
+        /* background-size: contain; */
+    }
+    .sex-txt{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start !important;
+    }
+   
+    
 
-    .img-2{
-        width: 140px;
-    }
-    .img-3{
-        width: 70px;
-        /* position: relative; */
-    }
-    /* #item1{
-        position: relative;
-        bottom: 320px;
-        right: 50px;
-    }
-    #item2{
-        position: relative;
-        bottom: 580px;
-        left: 100px;
-    }
-    #item3{
-        position: relative;
-        bottom: 690px;
-        left: 135px;
-    } */
