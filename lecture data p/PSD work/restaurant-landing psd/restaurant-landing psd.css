@@ -1,18 +1,19 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 .container{
     width: 1200px;
-    /* border: solid 2px; */
     margin: 0 auto;
+    border: solid 2px;
 }
 
 header{
     background-color: #303030;
+    /* background-image: ; */
 }
+
 .row{
     display: flex;
 }
@@ -35,10 +36,6 @@ header{
     position: relative;
 }
 
-.img{
-    width: 100%;
-}
-
 .col-40{
     width: 40%;
 }
@@ -47,8 +44,10 @@ header{
     width: 60%;
 }
 
-/*------------------------------------- header start -----------------------------------*/
 
+
+/* ----------------------------------header end------------------------ */
+/* ----------------------------------sec- home ------------------------ */
 
 .navbar{
     padding: 10px 0;
@@ -56,25 +55,28 @@ header{
     align-items: center;
     /* margin: 5px */
 }
+
 .links ul li{
     display: inline-block;
 }
+
 .links a{
-    /* font-family: 'poppins-light'; */
     color: white;
-    margin: 0 15px;
+    margin: 0px 15px;
     text-decoration: none;
     font-size: 20px;
     padding: 10px;
 }
+
 button svg{
     font-size: 30px;
-    fill:  aliceblue;
+    fill: aliceblue;
     background-color:#303030 ;
     padding: 3px;
     border: none;
 
 }
 
-
-/*------------------------------------- header end -----------------------------------*/
+.sec-row{
+    display: inline-block;
+}
