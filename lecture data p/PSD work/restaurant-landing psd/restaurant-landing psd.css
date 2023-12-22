@@ -9,10 +9,6 @@
     border: solid 2px;
 }
 
-header{
-    background-color: #303030;
-    /* background-image: ; */
-}
 
 .row{
     display: flex;
@@ -43,17 +39,43 @@ header{
 .col-60{
     width: 60%;
 }
+header{
+    background-image: url(./img/sec-1\ \(2\).png);
+    background-size: contain  ;
+    background-repeat: no-repeat;   
+    background-color: #303030;
+
+z-index: 100;
+}
+.pos-rel{
+    position: relative;
+}
+.pos-abs{
+    position: absolute;
+}
+.sideimg>img{
+    width: 100%;
+    
+}
+.sideimg{
+    width: 800px;
+    top: -119px;
+    right: 112px;
+    z-index: -1;
+}
+.row>div>img{
+    width: 100%;
+}
+.sec-row{
+    display: flex;  
+}
 
 
 
-/* ----------------------------------header end------------------------ */
-/* ----------------------------------sec- home ------------------------ */
 
-.navbar{
+.nav{
     padding: 10px 0;
-    /* display: flex; */
     align-items: center;
-    /* margin: 5px */
 }
 
 .links ul li{
@@ -74,9 +96,15 @@ button svg{
     background-color:#303030 ;
     padding: 3px;
     border: none;
-
+    
 }
 
 .sec-row{
     display: inline-block;
 }
+
+.text{
+    padding: 50px 0;
+}
+
+/* ----------------------------------header end------------------------ */
