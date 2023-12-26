@@ -6,7 +6,6 @@
 .container{
     width: 1200px;
     margin: 0 auto;
-    border: solid 2px;
 }
 
 
@@ -25,11 +24,15 @@
 .aic{
     align-items: center;
 }
-.posi-abs{
+
+.pos-rel{
+    position: relative;
+}
+.pos-abs{
     position: absolute;
 }
-.posi-rel{
-    position: relative;
+.sec-row{
+    display: flex;  
 }
 
 .col-40{
@@ -39,20 +42,25 @@
 .col-60{
     width: 60%;
 }
+
+.col-30{
+    width: 30%;
+}
+.col-50{
+    width: 50%;
+}
+
+
+
+
 header{
     background-image: url(./img/sec-1\ \(2\).png);
     background-size: contain  ;
     background-repeat: no-repeat;   
     background-color: #303030;
+    z-index: 100;
+}
 
-z-index: 100;
-}
-.pos-rel{
-    position: relative;
-}
-.pos-abs{
-    position: absolute;
-}
 .sideimg>img{
     width: 100%;
     
@@ -66,11 +74,6 @@ z-index: 100;
 .row>div>img{
     width: 100%;
 }
-.sec-row{
-    display: flex;  
-}
-
-
 
 
 .nav{
@@ -103,8 +106,104 @@ button svg{
     display: inline-block;
 }
 
-.text{
-    padding: 50px 0;
+.text h1{
+    font-size: 70px;
+    color: #ffc200;
+    padding: 50px 0px 0px 10px;
+    font-family: "Grand Hotel";
+}
+.text p{
+    font-size: 30px;
+    color: #ffffff;
+    margin: 0px 60px 20px 0px;
+    padding: 50px 40px 0px 10px;
+    font-family: "Grand Hotel";
+}
+
+.btn1{
+    padding: 8px 17px;
+    margin-left: 10px;
+    background-color: #ffc200;
+    font-size: 15px;
 }
 
 /* ----------------------------------header end------------------------ */
+
+
+/* ----------------------------------sec-one- start------------------------ */
+
+.secone{
+    background-color:#ffffff;
+    text-align: center;
+
+}
+
+.onetext h1{
+    font-size: 50px;
+    padding: 70px 0px 20px 0px ;
+}
+.onetext p{
+    font-size: 30px;
+    padding: 0px 0px 30px 0px ;
+    margin: 0px 200px;
+}
+
+.car1 img{
+    border-radius: 50%;
+}
+
+.textone h2{
+    padding: 10px 0px;
+    font-size: 30px;
+
+}
+.textone p{
+    padding: 0px 0px 150px 0px;
+    font-size: 20px;
+    margin: 0px 20px;
+
+}
+
+/* ----------------------------------sec-one- end------------------------ */
+
+/* ----------------------------------sec-two- start------------------------ */
+
+.twoimg img{
+    border-radius: 50%;
+    margin: 30px 0px 90px 80px;
+}
+.twotext h1{
+    font-size: 70px;
+    color: #ffc200;
+    padding: 180px 0px 30px 0px;
+    margin: 0px 0px 0px 100px;
+
+}
+.twotext p{
+    font-size: 25px;
+    width: 70%;
+    margin: 0px 0px 0px 100px;
+    padding: 0px 0px 35px 0px;
+}
+
+.btn2{
+    font-size: 20px;
+    padding: 8px 35px;
+    background-color:#ffc200;
+    margin: 0px 0px 0px 100px;
+    border: none;
+
+}
+
+.bckimg>img{
+    width: 100%;
+}
+.bckimg{
+    top: 119px;
+    right: 112px;
+    bottom: 0px;
+    left: 0px;
+
+    z-index: -1;
+}
+ /* ----------------------------------sec-two- end------------------------ */
