@@ -42,7 +42,6 @@
 .col-60{
     width: 60%;
 }
-
 .col-30{
     width: 30%;
 }
@@ -213,21 +212,7 @@ button svg{
     background-size: 1550px 1000px;
     /* width: 1900px; */
 }
-.bckimg>img{
-    width: 100%;
-    height: 160%;
-    overflow: hidden;
-}
-.bckimg{
-    width: 1000px;
-    
-   top: 2px;
-   /* right: 80%; */
-   bottom: 0px;
-   left:-22%;
 
-    z-index: -1;
-}
  /* ----------------------------------sec-two- end------------------------ */
  /* ----------------------------------sec-three- start------------------------ */
 
@@ -268,13 +253,14 @@ button svg{
  
  /* <!------------------------------------sec-four- start--------------------------> */
 
- /* .secfour{
-    di
- } */
+ .secfour{
+    /* padding: 100px 0px; */
+ }
  
 .fourimg img{
     border-radius: 50%;
     margin: 40px 0px 90px 80px;
+    padding: 50px 0px;
 }
 .fourtext h1{
     font-size: 70px;
@@ -308,23 +294,166 @@ button svg{
 .secfourbg{
     background-image: url(./img/sec4\ 2.png);
     background-repeat: no-repeat;
-    /* background-size:cover; */
-    background-position-x: center;
+    background-size:cover;
+    background-position: bottom;
     background-size: 1550px 1000px;
-    /* width: 1900px; */
 }
-.bckimg>img{
-    width: 100%;
-    height: 160%;
-    overflow: hidden;
-}
-.bckimg{
-    width: 1000px;
-    
-   top: 2px;
-   /* right: 80%; */
-   bottom: 0px;
-   left:-22%;
-   z-index: -1;
-}
+
  /* <!------------------------------------sec-four- end--------------------------> */
+
+
+ /* <!------------------------------------sec-five- start--------------------------> */
+.secfive{
+    /* background-color:#ffc200 ; */
+}
+.sec5text p{
+    font-size: 40px;
+    text-align: center;
+    color: #333333;
+    padding: 350px 190px 40px 190px ;
+}
+.sec5text h1{
+    font-size: 35px;
+    text-align: center;
+    color: #333333;
+    padding-bottom: 350px;
+}
+
+.secfivebg{
+    background-image:linear-gradient(#f2bd0fba ,#ffc400ad,#ffc4009b) ,url(./img/sec\ 5.png);
+    /* min-height: 800px; */
+    background-repeat: no-repeat;
+}
+
+ /* <!------------------------------------sec-five- end--------------------------> */
+
+
+ /* <!------------------------------------sec-six- start--------------------------> */
+
+ .sec-six{
+    background-color: #f4f4f4;
+    text-align: center;
+ }
+.secsixbg{
+    background-image: url(./img/sec6.png);
+    background-repeat: no-repeat;
+}
+ .main-text-six h1{
+    font-size: 60px;
+    color: #333333;
+    padding: 200px 0px 20px 0px ;
+ }
+ .main-text-six p{
+    font-size: 30px;
+    color: #333333;
+    padding: 0px 220px ;
+    margin-bottom: 40px;
+ }
+ .btn-1{
+    padding: 10px 250px 10px 5px;
+    border: none;
+    /* background-color: #f4f4f4; */
+ }
+ .btn-2{
+    padding: 10px 40px;
+    border: none;
+    background-color: #ffc200;
+    font-weight: 200px;
+    color: #ffffff;
+    margin: 0px 0px 0px -5px;
+ }
+.padding{
+    padding-bottom: 400px;
+}
+ /* <!------------------------------------sec-six- end--------------------------> */
+ /* <!--------------------------- footer-start ---------------------------------> */
+
+
+ footer{
+    padding: 100px 0px 100px 0px;
+    background-color: #222222;
+    display: flex;
+    justify-content: space-between;
+}
+.main-foot li{
+    display: block;
+
+}
+.col-40 h5{
+    font-size: 30px;
+    padding: 30px 0px 10px 0px;
+   
+}
+.col-40 p{
+    font-size: 20px;
+    width: 80%;
+    padding: 0px 0px 10px 10px;
+}
+.main-foot{
+    color: white;
+    font-size: 20px;
+    display: block;
+    margin: 5px 0px ; 
+    padding: 0px 0px 20px 5px ;   
+}
+.foot-icon{
+    text-align: left;
+}
+.foot-icon svg{
+  /* padding: 10px; */
+  background-color: white;
+  border-radius: 50%;
+  padding: 4px;
+  width: 30px;
+  height:30px;
+}
+.foot-icon ul li{
+    display:inline-block;
+    padding: 5px;
+}
+
+.about-links{
+    /* font-family: 'poppins-light'; */
+    padding: 10px;
+}
+.about-links h4{
+    padding: 10px;
+    font-size: 25px;
+}
+.about-links ul a{
+    color: white;
+    padding: 3px 0px;
+    text-decoration: none;
+}
+
+.about-Services{
+    /* font-family: 'poppins-light'; */
+    padding: 10px;
+}
+.about-Services h4{
+    padding: 10px;
+    font-size: 25px;
+
+}
+.about-Services ul a{
+    color: white;
+    padding: 3px 0px;
+    text-decoration: none;
+}
+
+.about-Other{
+    /* font-family: 'poppins-light'; */
+    padding: 10px;
+}
+.about-Other h4{
+    padding: 10px;
+    font-size: 25px;
+
+}
+.about-Other ul a{
+    color: white;
+    padding: 3px 0px;
+    text-decoration: none;
+}
+
+    /* <!--------------------------- footer-end ---------------------------------> */
