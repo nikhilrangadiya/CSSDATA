@@ -49,6 +49,9 @@
 .col-50{
     width: 50%;
 }
+.col-25{
+    width: 25%;
+}
 
 
 
@@ -59,6 +62,7 @@ header{
     background-repeat: no-repeat;   
     background-color: #303030;
     z-index: 100;
+    padding: 15px 0px 0px 0px ;
 }
 
 .sideimg>img{
@@ -180,6 +184,7 @@ button svg{
 
 }
 .twotext p{
+    color: #ffffff;
     font-size: 25px;
     width: 70%;
     margin: 0px 0px 0px 100px;
@@ -196,21 +201,130 @@ button svg{
 }
 
 .sectworow{
-    background-image: url(./img/sec\ two.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: left;
 }
-
+.sectwobg{
+    background-image: url(./img/sec\ two.png);
+    background-repeat: no-repeat;
+    /* background-size:cover; */
+    background-position-x: center;
+    background-size: 1550px 1000px;
+    /* width: 1900px; */
+}
 .bckimg>img{
     width: 100%;
+    height: 160%;
+    overflow: hidden;
 }
 .bckimg{
-    top: 40px;
-    right: 112px;
-    bottom: 0px;
-    left: 0px;
+    width: 1000px;
+    
+   top: 2px;
+   /* right: 80%; */
+   bottom: 0px;
+   left:-22%;
 
     z-index: -1;
 }
  /* ----------------------------------sec-two- end------------------------ */
+ /* ----------------------------------sec-three- start------------------------ */
+
+ .secthree{
+    background-color: #303030;
+    padding: 0px 0px 30px 0px;
+ }
+
+ .secthreeimgbg{
+    background-image: url(./img/sec3\ 5.png);
+    background-repeat: no-repeat;
+    background-size: 1277px 850px;
+    /* background-position-x: center; */
+    padding: 70px;
+
+ }
+ 
+ .text3 h1{
+    padding: 100px 0px 0px 0px;
+    font-size: 75px;
+    color: #ffc200;
+    font-family: "Grand Hotel";
+    text-align: center;
+ }
+ .text3 p{
+    font-size: 25px;
+    color: #ffffff;
+    font-family: "Grand Hotel";
+    text-align: center;
+    padding: 0px 250px 100px;
+ }
+ .sec3row>div>img{
+    width: 80%;
+    padding: 0px 0px 100px 0px;
+ }
+ /* ----------------------------------sec-three- end------------------------ */
+
+ 
+ /* <!------------------------------------sec-four- start--------------------------> */
+
+ /* .secfour{
+    di
+ } */
+ 
+.fourimg img{
+    border-radius: 50%;
+    margin: 40px 0px 90px 80px;
+}
+.fourtext h1{
+    font-size: 70px;
+    color: #ffc200;
+    padding: 180px 0px 30px 0px;
+    margin: 0px 0px 0px 100px;
+
+}
+.fourtext p{
+    color: #ffffff;
+    font-size: 25px;
+    width: 70%;
+    margin: 0px 0px 0px 100px;
+    padding: 0px 0px 35px 0px;
+}
+
+.btn4{
+    font-size: 20px;
+    padding: 8px 35px;
+    background-color:#ffc200;
+    margin: 0px 0px 0px 100px;
+    border: none;
+
+}
+
+.secfourrow{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+}
+.secfourbg{
+    background-image: url(./img/sec4\ 2.png);
+    background-repeat: no-repeat;
+    /* background-size:cover; */
+    background-position-x: center;
+    background-size: 1550px 1000px;
+    /* width: 1900px; */
+}
+.bckimg>img{
+    width: 100%;
+    height: 160%;
+    overflow: hidden;
+}
+.bckimg{
+    width: 1000px;
+    
+   top: 2px;
+   /* right: 80%; */
+   bottom: 0px;
+   left:-22%;
+   z-index: -1;
+}
+ /* <!------------------------------------sec-four- end--------------------------> */
