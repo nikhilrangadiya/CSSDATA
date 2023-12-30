@@ -74,7 +74,7 @@ nav {
 }
 
 .sec-txt p {
-  width: 61%;
+  width: 86%;
   font-size: 20px;
   border: dotted 2px;
   background-color: #ffc045;
@@ -188,6 +188,8 @@ nav {
   color: #3d2514;
   padding: 10px 40px;
   font-size: 20px;
+  font-weight: bold;
+
 }
 .btn-2 {
   text-align: center;
@@ -217,17 +219,171 @@ nav {
     color: #3d2514 ;
     padding: 0px 20px 30px 20px;
     text-align: center
-}
+  }
+  .sec-three-row h3{
+      text-transform: uppercase;
+      font-family: "Bebas Neue";
+      color: #3d2514;
+      font-size: x-large;
+      
+  }
+  .s1:after{
+      content:"";
+      position: absolute;
+      top:40px;right:0;bottom:0;left: 0;
+      z-index:-2;			
+      -webkit-box-shadow:0px 250px 15px -60px rgba(0,0,0,.25);
+      -moz-box-shadow:0px 250px 15px -35px rgba(0,0,0,.25);
+      box-shadow:0px 149px 42px -77px rgba(0,0,0,.25);
+      -webkit-border-radius:50%;
+      -moz-border-radius:50%;
+      border-radius:-31%;
+      transform:scaleY(.3);
+      -webkit-transform:scaleY(.3);
+      -moz-transform:scaleY(.3);
+      -ms-transform:scaleY(.3);
+      -o-transform:scaleY(.3);
+   }
+  .s2:after{
+      content:"";
+      position: absolute;
+      top:40px;right:0;bottom:0;left: 0;
+      z-index:-2;			
+      -webkit-box-shadow:0px 250px 15px -60px rgba(0,0,0,.25);
+      -moz-box-shadow:0px 250px 15px -35px rgba(0,0,0,.25);
+      box-shadow:0px 149px 42px -77px rgba(0,0,0,.25);
+      -webkit-border-radius:50%;
+      -moz-border-radius:50%;
+      border-radius:-31%;
+      transform:scaleY(.3);
+      -webkit-transform:scaleY(.3);
+      -moz-transform:scaleY(.3);
+      -ms-transform:scaleY(.3);
+      -o-transform:scaleY(.3);
+   }
+  .s3:after{
+      content:"";
+      position: absolute;
+      top:40px;right:0;bottom:0;left: 0;
+      z-index:-2;			
+      -webkit-box-shadow:0px 250px 15px -60px rgba(0,0,0,.25);
+      -moz-box-shadow:0px 250px 15px -35px rgba(0,0,0,.25);
+      box-shadow:0px 149px 42px -77px rgba(0,0,0,.25);
+      -webkit-border-radius:50%;
+      -moz-border-radius:50%;
+      border-radius:-31%;
+      transform:scaleY(.3);
+      -webkit-transform:scaleY(.3);
+      -moz-transform:scaleY(.3);
+      -ms-transform:scaleY(.3);
+      -o-transform:scaleY(.3);
+   }
 
-.card2>img{
+.card2{
    width: 91%;
 }
-.sec-three-row h3{
-    text-transform: uppercase;
-    font-family: "Bebas Neue";
-    color: #3d2514;
-    font-size: x-large;
-    
+.card1 h3{
+  text-align: center;
+  color: #3d2514;
+  padding: 70px 0px 10px 0px;
+  font-weight: bold;
+
+}
+.card2 h3{
+  text-align: center;
+  color: #3d2514;
+  padding: 70px 0px 10px 0px;
+  font-weight: bold;
+
+}
+.card3 h3{
+  text-align: center;
+  color: #3d2514;
+  padding: 70px 0px 10px 0px;
+  font-weight: bold;
+
+}
+
+.card1 p{
+  text-align: center;
+  color: #3d2514;
+  padding: 0px 20px 10px 20px;
+}
+.card2 p{
+  text-align: center;
+  color: #3d2514;
+  padding: 0px 20px 10px 20px;
+}
+.card3 p{
+  text-align: center;
+  color: #3d2514;
+  padding: 0px 20px 10px 20px;
+}
+
+/* .btn-3{
+  background-color: #bf2222;
+  color: #ffffff;
+  font-size: 15px;
+  padding: 10px 15px;
+  font-weight: bold;
+  text-align: center;
+} */
+.btn-3 {
+  display: inline-block;
+  background-color: #bf2222;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-size: 15px;
+  padding: 10px 15px;
+  font-weight: bold;
+}
+
+.btn-3-container {
+  text-align: center;
+  padding: 10px 0px 20px 0px;
 }
 
 /*------------------------------ sec-three-end ---------------------------- */
+
+ /*---------------------------- sec-four-start ---------------------- */ 
+ .sec-four-row {
+  display: flex;
+  padding: 60px 0px 50px 0px;
+  justify-content: center;
+  justify-content: space-between;
+}
+
+.p1{
+  font-weight: bold;
+  font-size: 20px;
+  padding: 20px 0px 10px 0px;
+  text-transform: uppercase;
+  font-family: "Bebas Neue";  
+}
+
+.sec-four-text h3{
+  font-size: 45px;
+  padding: 0px 0px 10px 0px;
+  color: #3d2514;
+  text-transform: uppercase;
+  font-family: "Alfa Slab One";
+}
+.p2{
+  font-size: 29px;
+  padding: 10px 0px 50px 0px;
+}
+
+/* Add this CSS for the .dot class */
+.dot {
+  width: 10px;
+  height: 10px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 5px; /* Adjust the margin to control the spacing between dots */
+}
+
+
+/*---------------------------- sec-three-end ---------------------- */
+
+
