@@ -36,9 +36,14 @@
     width: 30%;
 }
 
+.col-35{
+  width: 35%;
+}
+
 img {
   width: 100%;
 }
+
 
 .container {
   width: 1200px;
@@ -320,14 +325,6 @@ nav {
   padding: 0px 20px 10px 20px;
 }
 
-/* .btn-3{
-  background-color: #bf2222;
-  color: #ffffff;
-  font-size: 15px;
-  padding: 10px 15px;
-  font-weight: bold;
-  text-align: center;
-} */
 .btn-3 {
   display: inline-block;
   background-color: #bf2222;
@@ -336,6 +333,7 @@ nav {
   font-size: 15px;
   padding: 10px 15px;
   font-weight: bold;
+  border: none;
 }
 
 .btn-3-container {
@@ -373,15 +371,30 @@ nav {
   padding: 10px 0px 50px 0px;
 }
 
-/* Add this CSS for the .dot class */
 .dot {
-  width: 10px;
-  height: 10px;
+  width: 20px;
+  height: 20px;
   background-color: #bbb;
   border-radius: 50%;
   display: inline-block;
-  margin-right: 5px; /* Adjust the margin to control the spacing between dots */
 }
+
+.sec-four-row{
+    /* box-shadow: 10px 10px 5px lightblue; */
+    box-shadow: 26px 25px 15px -3px rgba(0,0,0,0.1);
+        padding: 20px 20px ;
+        margin-bottom: 300px;
+}
+.dot:hover {
+  background-color: #ffc045;
+}
+
+.dot-papa{
+  display: flex;
+  gap: 10px;
+}
+
+
 
 
 /*---------------------------- sec-three-end ---------------------- */
