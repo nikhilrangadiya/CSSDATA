@@ -394,9 +394,17 @@ nav {
   gap: 10px;
 }
 
+/*---------------------------- sec-four-end ---------------------- */
+
+/*---------------------------- sec-five-start ---------------------- */
+.sec-five-row {
+  display: flex;
+  padding: 60px 0px 50px 0px;
+  justify-content: center;
+  justify-content: space-between;
+}
 
 
-
-/*---------------------------- sec-three-end ---------------------- */
+/*---------------------------- sec-five-end ---------------------- */
 
 
