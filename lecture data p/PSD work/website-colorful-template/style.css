@@ -8,6 +8,9 @@
     width: 1200px;
     margin: 0 auto;
 }
+body{
+    background-color: #ebe3cd;
+}
 
 .row{
     display: flex;
@@ -23,16 +26,19 @@
 .aic{
     align-items: center;
 }
+.posi-abs{
+    position: absolute;
+}
+.posi-rel{
+    position: relative;
+}
 header{
     background-color:  #12202f;
     border-radius: 33px;
 }
-.menu{
-    display: flex;
-    margin: 60px 0px;
-}
-.nav{
+.navbar{
     padding: 10px 10px;
+    margin: 50px 0px;
     align-items: center;
 
 }
