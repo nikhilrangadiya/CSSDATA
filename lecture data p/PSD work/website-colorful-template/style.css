@@ -1,63 +1,98 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.container{
-    width: 1200px;
-    margin: 0 auto;
+.container {
+  width: 1200px;
+  margin: 0 auto;
 }
-body{
-    background-color: #ebe3cd;
-}
-
-.row{
-    display: flex;
-}
-.jcc{
-    justify-content: center;
+body {
+  background-color: #ebe3cd;
 }
 
-.jcs{
-     
-    justify-content:space-between;
+.row {
+  display: flex;
 }
-.aic{
-    align-items: center;
+.jcc {
+  justify-content: center;
 }
-.posi-abs{
-    position: absolute;
+
+.jcs {
+  justify-content: space-between;
 }
-.posi-rel{
-    position: relative;
+.aic {
+  align-items: center;
 }
-header{
-    background-color:  #12202f;
-    border-radius: 33px;
+.posi-abs {
+  position: absolute;
 }
-.navbar{
-    padding: 10px 10px;
-    margin: 50px 0px;
-    align-items: center;
+.posi-rel {
+  position: relative;
+}
+.sec-45 {
+  width: 45%;
+}
+.sec-55 {
+  width: 55%;
+}
+
+header {
+  background-color: #12202f;
+  border-radius: 33px;
+}
+.navbar {
+  padding: 10px 10px;
+  margin: 50px 0px;
+  align-items: center;
+}
+.logo h1 {
+  color: white;
+  font-size: 25px;
+}
+.links ul li {
+  display: inline-block;
+}
+.links a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 10px;
+}
+.link1 a {
+  color: #6bb99c;
+  /* text-align: center; */
+  font-size: 20px;
+}
+
+/* ------------------------------------------------------------------------------------ */
+
+.main h1 {
+  font-size: 75px;
+}
+.bold {
+  font-size: 33px;
+  font-weight: bold;
+  padding: 10px 0px;
+}
+.sec-btn {
+  margin: 20px 0px 0px 0px;
+}
+.btn-1 {
+  padding: 6px 10px;
+  font-size: 18px;
+  font-weight: 540;
+  border-radius: 28px;
+  background-color: #df581e;
+  border: none;
 
 }
-.logo h1{
-    color: white;
-    font-size: 25px;
-}
-.links ul li{
-    display: inline-block;
-}
-.links a{
-    color: white;
-    margin: 0 15px;
-    text-decoration: none;
-    font-size: 20px;
-    padding: 10px;
-}
-.link1 a{
-    color:#6bb99c ;
-    /* text-align: center; */
-    font-size: 20px;
+.btn-2 {
+  font-size: 18px;
+  font-weight: 540;
+  border: none;
+  background-color: #ebe3cd;
+  padding: 0px 0px 0px 15px;
 }
