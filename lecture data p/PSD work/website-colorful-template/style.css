@@ -43,7 +43,7 @@ header {
   border-radius: 33px;
 }
 .navbar {
-  padding: 10px 10px;
+  padding: 16px 35px;
   margin: 50px 0px;
   align-items: center;
 }
@@ -134,8 +134,62 @@ header {
 
 /* <!---------------------------------- sec-2 ------------------------------------- --> */
 .s-2-m{
-  margin: 300px 0px 0px 0px ;
+  margin: 270px 0px 0px 0px ;
   font-size: 30px;
   font-weight: 400;
 }
 
+
+.box{
+  width: 300px;
+  display: flex;
+  align-items: center;
+  border: solid 2px #ffffff;
+  padding: 70px 610px;
+  margin: 30px 0px 50px 0px ;
+  border-radius: 27px;
+  background-color:#ffffff ;
+}
+
+/* ---------------------------------------------------------------------------------- */
+.s-3-m p{
+  font-size: 30px;
+  color: #eaa73b;
+  text-align: center;
+  padding: 10px 0px 4px 0px ;
+}
+.s-3-m h4{
+  font-size: 40px;
+  text-align: center;
+  padding: 10px 0px 40px 0px ;
+}
+
+.card{
+  width: 30%;
+  background-color: #ffffff;
+  border-radius: 27px;
+  border: 2px solid;
+  padding: 30px 0px 0px 0px;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.card h4{
+  font-size: 30px;
+  padding: 20px 0px 0px 0px;
+}
+
+.card p{
+  font-size: 23px;
+  padding: 7px 0px 10px 0px ;
+}
+
+.card button{
+  padding: 10px 20px;
+  margin: 10px 0px 30px 0px;
+  font-size: 20px;
+  border-radius: 27px;
+  background-color: #df581e;
+  color: #ffffff;
+  border: none;
+}
