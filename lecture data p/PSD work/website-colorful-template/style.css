@@ -124,7 +124,7 @@ header {
   width: 140%;
   position: absolute;
   top: 140px;
-  right: -55px;
+  right: -24px;
 }
 .plant{
   position: absolute;
@@ -152,6 +152,15 @@ header {
 }
 
 /* ---------------------------------------------------------------------------------- */
+.card{
+  width: 30%;
+  background-color: #ffffff;
+  border-radius: 27px;
+  border: 2px solid;
+  padding: 30px 0px 0px 0px;
+  text-align: center;
+  margin-bottom: 25px;
+}
 .s-3-m p{
   font-size: 30px;
   color: #eaa73b;
@@ -164,15 +173,6 @@ header {
   padding: 10px 0px 40px 0px ;
 }
 
-.card{
-  width: 30%;
-  background-color: #ffffff;
-  border-radius: 27px;
-  border: 2px solid;
-  padding: 30px 0px 0px 0px;
-  text-align: center;
-  margin-bottom: 25px;
-}
 
 .card h4{
   font-size: 30px;
@@ -201,7 +201,7 @@ header {
 
 .s-4-m{
   text-align: center;
-  margin: 100px 0px 20px 0px ;
+  margin: 150px 0px 20px 0px ;
 }
 .s-4-m p{
   font-size: 30px;
@@ -217,6 +217,130 @@ header {
 .s-4-m button{
   padding: 10px 20px;
   margin: 10px 0px 30px 0px;
+  font-size: 20px;
+  border-radius: 27px;
+  background-color:#6bb99c;
+  color: #ffffff;
+  border: none;
+}
+
+.table1{
+  padding: 0px 0px 20px 0px ;
+  position: absolute;
+  top: 170px;
+  right: -10px;
+}
+.table2{
+  padding: 0px 0px 20px 0px ;
+  position: absolute;
+  top: 170px;
+  left: -10px;
+}
+.table3{
+  position: absolute;
+  left: 995px;
+  top: -230px;
+}
+.table4{
+  position: absolute;
+  right: 1000px;
+  top: -230px;
+}
+.staf{
+  width: 42%;
+  position: relative;
+  top: 110px;
+  left: 342px;
+  padding: 0px 0px 20px 0px ;
+}
+
+/* ---------------------------------------------------------------------------------------- */
+.sec-5-row{
+  margin: 80px 0px 0px 0px;
+  justify-content: space-between;
+}
+
+.s-5-m{
+  width: 30%;
+  margin: 250px 0px ;
+}
+.story{
+  color: #df581e;
+  padding: 10px 0px 7px 0px;
+}
+.s-5-m h2{
+  font-size: 40px;
+}
+.s-5-m p{
+  font-size: 22.2px;
+  padding: 2px 0px 20px 0px;
+}
+.s-5-m button{
+  padding: 10px 20px;
+  margin: 10px 0px 30px 0px;
+  font-size: 20px;
+  border-radius: 27px;
+  background-color: #df581e;
+  color: #ffffff;
+  border: none;
+}
+
+
+.s-5-img{
+  width: 60%;
+  text-align: center;
+}
+
+.s5-1{
+  width: 90%;
+  position: absolute;
+  top: 277px;
+  left:50px;
+}
+.s5-2{
+  position: absolute;
+  top: 90px;
+  left:558px;
+}
+.s5-3{
+  position: absolute;
+  top: 150px;
+  left:50px;
+}
+
+/* ----------------------------------------------------------------------------- */
+.sec-6-row{
+  justify-content: space-between;
+}
+.s-6-img{
+  width: 50%;
+  padding: 60px 0px 0px 0px ;
+}
+.s-6-img img{
+  width: 95%;
+}
+.s-6-text{
+  width: 45%;
+  padding: 70px 55px 0px 0px ;
+}
+
+.s-6-tp{
+  color: #eaa73b;
+  font-size: 30px ;
+  padding: 20px 0px 10px 0px ;
+}
+.s-6-text h2{
+  font-size: 55px ;
+  line-height: 50px;
+  padding-top: 10px;
+}
+.s-6-text p{
+  font-size: 30px;
+  padding: 10px 0px 0px 0px;
+}
+.s-6-text button{
+  padding: 10px 20px;
+  margin: 20px 0px 30px 10px;
   font-size: 20px;
   border-radius: 27px;
   background-color:#6bb99c;
