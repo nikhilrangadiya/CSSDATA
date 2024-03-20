@@ -81,7 +81,7 @@ header {
   margin: 20px 0px 0px 0px;
 }
 .btn-1 {
-  padding: 6px 10px;
+  padding: 6px 15px;
   font-size: 18px;
   font-weight: 540;
   border-radius: 28px;
@@ -156,7 +156,7 @@ header {
   font-size: 30px;
   color: #eaa73b;
   text-align: center;
-  padding: 10px 0px 4px 0px ;
+  padding: 30px 0px 4px 0px ;
 }
 .s-3-m h4{
   font-size: 40px;
@@ -190,6 +190,36 @@ header {
   font-size: 20px;
   border-radius: 27px;
   background-color: #df581e;
+  color: #ffffff;
+  border: none;
+}
+.sec-3-row{
+  justify-content: space-evenly;
+}
+
+/* --------------------------------------------------------------------------------- */
+
+.s-4-m{
+  text-align: center;
+  margin: 100px 0px 20px 0px ;
+}
+.s-4-m p{
+  font-size: 30px;
+  color: #6bb99c;
+  font-weight: 400;
+}
+.s-4-m h4{
+  font-size: 45px;
+  font-weight: 400;
+  padding: 10px 0px;
+}
+
+.s-4-m button{
+  padding: 10px 20px;
+  margin: 10px 0px 30px 0px;
+  font-size: 20px;
+  border-radius: 27px;
+  background-color:#6bb99c;
   color: #ffffff;
   border: none;
 }
