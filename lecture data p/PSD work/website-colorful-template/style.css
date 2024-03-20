@@ -347,3 +347,66 @@ header {
   color: #ffffff;
   border: none;
 }
+
+/* ---------------------------------------------------------------------------------- */
+
+.sec-7-row{
+  justify-content: space-between;
+  border-radius: 27px;
+  background-color: #ffffff;
+  padding: 60px 80px 100px 70px;
+  margin: 100px 0px 20px 0px ;
+}
+.s-7-text{
+  width: 40%;
+  padding: 160px 55px 0px 0px ;
+}
+.s-7-tp{
+  color: #6bb99c;
+  font-size: 30px ;
+  padding: 20px 0px 10px 0px ;
+}
+.s-7-text h2{
+  font-size: 55px ;
+  line-height: 50px;
+  padding-top: 10px;
+}
+.s-7-text p{
+  font-size: 22px;
+  padding: 10px 0px 0px 0px;
+}
+.s-7-text button{
+  padding: 10px 20px;
+  margin: 20px 0px 30px 10px;
+  font-size: 20px;
+  border-radius: 27px;
+  background-color:#df581e;
+  color: #ffffff;
+  border: none;
+}
+
+.s-7-img{
+  width: 55%;
+  /* padding: 60px 0px 0px 0px ; */
+}
+
+/* --------------------------------------------------------------------------- */
+.sec-8-m{
+  text-align: center;
+  margin-top: 8dvi;
+}
+.sec-8-m p{
+  font-size: 30px;
+  color: #df581e;
+}
+.sec-8-m h4{
+  font-size: 40px;
+  padding: 0px 0px 10px 0px;
+}
+
+.scard-1{
+  width: 45%;
+}
+.scard-2{
+  width: 45%;
+}
