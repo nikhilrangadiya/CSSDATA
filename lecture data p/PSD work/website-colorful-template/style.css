@@ -144,16 +144,32 @@ header {
   width: 300px;
   display: flex;
   align-items: center;
+  justify-content: center;
+  /* justify-content: space-evenly; */
+  
   border: solid 2px #ffffff;
   padding: 70px 610px;
   margin: 30px 0px 50px 0px ;
   border-radius: 27px;
   background-color:#ffffff ;
+
+}
+.input-box{
+  padding: 40px;
+  /* width: 20%; */
+  margin: 0px   20px;
+  border-radius: 20px;
+  background-color: #ebe3cd;
+  
+}
+.cheek>button{
+  width: max-content;
 }
 
 /* ---------------------------------------------------------------------------------- */
 .card{
   width: 30%;
+  background-color: #ffffff;
   background-color: #ffffff;
   border-radius: 27px;
   border: 2px solid;
@@ -404,9 +420,117 @@ header {
   padding: 0px 0px 10px 0px;
 }
 
+.sec-8-row{
+  justify-content: space-between;
+  padding: 50px 0px 35px 0px;
+}
 .scard-1{
   width: 45%;
+  background-color: #ffffff;
+  border-radius: 27px;
+  padding: 30px 30px 20px 30px ;
 }
 .scard-2{
   width: 45%;
+  background-color: #ffffff;
+  border-radius: 27px;
+  padding: 30px 30px 20px 30px ;
+}
+.scard-3{
+  width: 45%;
+  margin: 0 auto;
+  background-color: #ffffff;
+  border-radius: 27px;
+  padding: 30px 30px 20px 30px ;
+}
+.s8text{
+  padding: 15px 0px 0px 20px;
+}
+.s8text h4{
+  font-size: 30px ;
+}
+.s8text p{
+  font-size: 20px ;
+  padding: 5px 0px 10px 0px ;
+}
+
+/* --------------------------------------------------------------------------------- */
+.s9text{
+  margin: 0 auto;
+  flex-direction: column;
+  text-align: center;
+  padding: 80px 0px 100px 0px ;
+}
+.s9text p{
+  font-size: 40px;
+  color: #df581e;
+  padding: 10px 0px 5px 0px;
+}
+.s9text h4{
+  font-size: 50px;
+  padding: 0px 0px 10px 0px;
+}
+.name{
+  border: solid 2px #faf8ef;
+  padding: 25px 750px 25px 40px ;
+  margin:auto;
+  margin-top: 10px;
+  background-color: #ccc1a3;
+  border-radius: 43px;
+}
+.mail{
+  border: solid 2px #faf8ef;
+  padding: 25px 760px 25px 40px ;
+  margin:auto;
+  margin-top: 10px;
+  background-color: #ccc1a3;
+  border-radius: 43px;
+}
+.msg{
+  border: solid 2px #faf8ef;
+  padding: 25px 735px 120px 40px ;
+  margin:auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: #ccc1a3;
+  border-radius: 27px;
+}
+.s9btn{
+    padding: 10px 20px;
+    margin: 10px 0px 30px 0px;
+    font-size: 25px;
+    font-weight: 600;
+    margin: 0 auto;
+    border-radius: 27px;
+    background-color: #6bb99c;
+    color: #3a3a3a;
+    border: none;
+    
+}
+
+.s9img1{
+  position: absolute;
+  top:100px;
+  left: -10px;
+}
+.s9img2{
+  position: absolute;
+  top:100px;
+  right:15px;
+}
+.s9img3{
+  position: absolute;
+  bottom:20px;
+  right:15px;
+}
+.s9img4{
+  position: absolute;
+  bottom:20px;
+  left:15px;
+}
+
+/* ------------------------------------------------------------------------------ */
+.footer{
+  background-color: #f79708;
+  height: 400px;
 }
