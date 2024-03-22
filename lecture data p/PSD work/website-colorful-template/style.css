@@ -145,25 +145,33 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
-  /* justify-content: space-evenly; */
-  
   border: solid 2px #ffffff;
-  padding: 70px 610px;
+  padding: 40px 610px;
   margin: 30px 0px 50px 0px ;
   border-radius: 27px;
   background-color:#ffffff ;
 
 }
-.input-box{
-  padding: 40px;
-  /* width: 20%; */
-  margin: 0px   20px;
-  border-radius: 20px;
-  background-color: #ebe3cd;
-  
+.sec-2-row{
+  font-size: 20px ;
 }
+.input-box{
+  padding: 20px 80px 20px 20px;
+  margin:5px 60px 0px 0px;
+  border-radius: 23px;
+  background-color: #ebe3cd;
+}
+
+
 .cheek>button{
   width: max-content;
+  padding: 20px 20px 20px 20px;
+  margin: 40px 0px 30px 90px ;
+  font-size: 20px ;
+  background-color: #6bb99c;
+  color: #ffffff;
+  border-radius: 27px;
+  border: none;
 }
 
 /* ---------------------------------------------------------------------------------- */
