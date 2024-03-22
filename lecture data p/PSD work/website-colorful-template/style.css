@@ -532,5 +532,100 @@ header {
 /* ------------------------------------------------------------------------------ */
 .footer{
   background-color: #f79708;
-  height: 400px;
+}
+.main-foot{
+  padding: 70px 0px;
+} 
+.main-foot h4{
+  font-size: 40px ;
+  color: white;
+}
+.About{
+  width: 25%;
+}
+.about-links{
+  padding: 10px;
+}
+.about-links h4{
+  padding: 10px 0px 20px 0px;
+}
+.about-links ul a{
+  color: #404040;
+  font-size: 25px;
+  line-height: 65px;
+  letter-spacing: 1px;
+  font-weight: 700;
+  text-decoration: none;
+}
+.Services{
+  width: 25%;
+}
+.about-Services{
+  padding: 10px;
+}
+.about-Services h4{
+  padding: 10px 0px 20px 0px;
+}
+.about-Services ul a{
+  color: #404040;
+  font-size: 25px;
+  line-height: 65px;
+  letter-spacing: 1px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.main-foot li{
+  display: block;
+}
+.foot-input{
+  width: 50%;
+}
+
+.foot-input h5{
+  text-align: right;
+  color: white;
+  font-size: 40px;
+  padding: 25px 0px 0px 0px;
+}
+
+.foot-input-fl input{
+  padding: 20px 10px 20px 250px  ;
+  background-color: #f79708;
+  border: solid 2px #404040;
+  border-radius: 54px;
+  outline: none;
+  margin:40px 0px 20px 0px  ;
+  
+}
+.foot-input-fl button svg{
+  fill: white;
+  
+}
+
+.foot-input-fl{
+  text-align: right;
+  margin: 15px 0px;
+}
+
+.foot-icon{
+  text-align: right;
+}
+.foot-icon svg{
+background-color: white;
+border-radius: 50%;
+padding: 4px;
+width: 40px;
+height:40px;
+margin: 15px 15px 5px 0px ;
+
+}
+.foot-icon ul li{
+  display:inline-block;
+  padding: 5px;
+}
+.foot-icon ul li>p{
+  font-size: 30px;
+  padding: 0px 20px 0px 0px;
+
 }
