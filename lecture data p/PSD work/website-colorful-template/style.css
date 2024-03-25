@@ -4,8 +4,9 @@
   box-sizing: border-box;
 }
 
+
 .container {
-  width: 1200px;
+  width: 100%;
   margin: 0 auto;
 }
 body {
@@ -14,6 +15,7 @@ body {
 
 .row {
   display: flex;
+  /* flex-wrap: wrap; */
 }
 .jcc {
   justify-content: center;
@@ -32,10 +34,10 @@ body {
   position: relative;
 }
 .sec-45 {
-  width: 45%;
+  width: 100%;
 }
 .sec-55 {
-  width: 55%;
+  width: 100%;
 }
 
 header {
@@ -87,7 +89,7 @@ header {
   border-radius: 28px;
   background-color: #df581e;
   border: none;
-
+  
 }
 .btn-2 {
   font-size: 18px;
@@ -100,7 +102,7 @@ header {
 /* ----------------------------------------------------------------------------- */
 
 .lamp img{
-  width: 65px;
+  width: 100%;
 }
 .lamp{
   position: absolute;
@@ -109,19 +111,19 @@ header {
 }
 
 .window-1{
-  width: 125px;
+  width: 100%;
   position: absolute;
   right: 0px;
   bottom: 0px;
 }
 .window-2{
-  width: 125px;
+  width: 100%;
   position: absolute;
   left: 60px;
   bottom: 0px;
 }
 .f1{
-  width: 140%;
+  width: 100%;
   position: absolute;
   top: 140px;
   right: -24px;
@@ -141,7 +143,7 @@ header {
 
 
 .box{
-  width: 300px;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -174,9 +176,9 @@ header {
   border: none;
 }
 
-/* ---------------------------------------------------------------------------------- */
+/* ---------------------------------------sec-3-------------------------------------- */
 .card{
-  width: 30%;
+  width:100%;
   background-color: #ffffff;
   background-color: #ffffff;
   border-radius: 27px;
@@ -221,7 +223,7 @@ header {
   justify-content: space-evenly;
 }
 
-/* --------------------------------------------------------------------------------- */
+/* -----------------------------------sec-4 ------------------------------------------ */
 
 .s-4-m{
   text-align: center;
@@ -271,21 +273,21 @@ header {
   top: -230px;
 }
 .staf{
-  width: 42%;
+  width: 100%;
   position: relative;
   top: 110px;
   left: 342px;
   padding: 0px 0px 20px 0px ;
 }
 
-/* ---------------------------------------------------------------------------------------- */
+/* ------------------------------------sec-5---------------------------------------------- */
 .sec-5-row{
   margin: 80px 0px 0px 0px;
   justify-content: space-between;
 }
 
 .s-5-m{
-  width: 30%;
+  width: 100%;
   margin: 250px 0px ;
 }
 .story{
@@ -311,12 +313,12 @@ header {
 
 
 .s-5-img{
-  width: 60%;
+  width: 100%;
   text-align: center;
 }
 
 .s5-1{
-  width: 90%;
+  width: 100%;
   position: absolute;
   top: 277px;
   left:50px;
@@ -332,19 +334,19 @@ header {
   left:50px;
 }
 
-/* ----------------------------------------------------------------------------- */
+/* -------------------------------sec-6--------------------------------------- */
 .sec-6-row{
   justify-content: space-between;
 }
 .s-6-img{
-  width: 50%;
+  width: 100%;
   padding: 60px 0px 0px 0px ;
 }
 .s-6-img img{
-  width: 95%;
+  width: 100%;
 }
 .s-6-text{
-  width: 45%;
+  width: 100%;
   padding: 70px 55px 0px 0px ;
 }
 
@@ -372,7 +374,7 @@ header {
   border: none;
 }
 
-/* ---------------------------------------------------------------------------------- */
+/* ---------------------------------------sec-7---------------------------------------- */
 
 .sec-7-row{
   justify-content: space-between;
@@ -382,7 +384,7 @@ header {
   margin: 100px 0px 20px 0px ;
 }
 .s-7-text{
-  width: 40%;
+  width: 100%;
   padding: 160px 55px 0px 0px ;
 }
 .s-7-tp{
@@ -410,11 +412,11 @@ header {
 }
 
 .s-7-img{
-  width: 55%;
+  width: 100%;
   /* padding: 60px 0px 0px 0px ; */
 }
 
-/* --------------------------------------------------------------------------- */
+/* ----------------------------------sec-8 ------------------------------------- */
 .sec-8-m{
   text-align: center;
   margin-top: 8dvi;
@@ -433,19 +435,19 @@ header {
   padding: 50px 0px 35px 0px;
 }
 .scard-1{
-  width: 45%;
+  width: 100%;
   background-color: #ffffff;
   border-radius: 27px;
   padding: 30px 30px 20px 30px ;
 }
 .scard-2{
-  width: 45%;
+  width: 100%;
   background-color: #ffffff;
   border-radius: 27px;
   padding: 30px 30px 20px 30px ;
 }
 .scard-3{
-  width: 45%;
+  width: 100%;
   margin: 0 auto;
   background-color: #ffffff;
   border-radius: 27px;
@@ -462,7 +464,7 @@ header {
   padding: 5px 0px 10px 0px ;
 }
 
-/* --------------------------------------------------------------------------------- */
+/* -----------------------------------sec-9 ---------------------------------------- */
 .s9text{
   margin: 0 auto;
   flex-direction: column;
@@ -549,7 +551,7 @@ header {
   color: white;
 }
 .About{
-  width: 25%;
+  width: 100%;
 }
 .about-links{
   padding: 10px;
@@ -566,7 +568,7 @@ header {
   text-decoration: none;
 }
 .Services{
-  width: 25%;
+  width: 100%;
 }
 .about-Services{
   padding: 10px;
@@ -587,7 +589,7 @@ header {
   display: block;
 }
 .foot-input{
-  width: 50%;
+  width: 100%;
 }
 
 .foot-input h5{
@@ -619,11 +621,17 @@ header {
 .foot-icon{
   text-align: right;
 }
+.foot-icon>ul{
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  
+}
 .foot-icon svg{
 background-color: white;
 border-radius: 50%;
 padding: 4px;
-width: 40px;
+width: 100%;
 height:40px;
 margin: 15px 15px 5px 0px ;
 
@@ -632,8 +640,100 @@ margin: 15px 15px 5px 0px ;
   display:inline-block;
   padding: 5px;
 }
-.foot-icon ul li>p{
+.foot-icon ul li>span{
   font-size: 30px;
   padding: 0px 20px 0px 0px;
 
 }
+/* ------------------------------------------------------------------------------------ */
+@media(min-width:992px){
+  .container{
+      width: 950px;
+  }
+}
+
+@media(min-width:1200px){
+  .container{
+    width: 1150px;
+  }
+  .sec-45{
+    width: 45%;
+  }
+  .sec-55{
+    width: 55%;
+  }
+  .lamp img{
+    width: 65px;
+  }
+  .window-1{
+    width: 125px;
+  }
+  .window-2{
+    width: 125px;
+  }
+  .f1{
+    width: 140%;
+  }
+
+  .box{
+    width: 300px;
+  }
+
+  .card{
+    width: 30%;
+  }
+  .staf{
+    width: 42%;
+  }
+
+  .s-5-m{
+    width: 30%;
+  }
+  .s-5-img{
+    width: 60%;
+  }
+  .s5-1{
+    width: 90%;
+  }
+
+  .s-6-img{
+    width: 50%;
+  }
+  .s-6-img img{
+    width: 95%;
+  }
+  .s-6-text{
+    width: 45%;
+  }
+
+  .s-7-text{
+    width: 40%;
+  }
+  .s-7-img{
+    width: 55%;
+  }
+
+  .scard-1{
+    width: 45%;
+  }
+  .scard-2{
+    width: 45%;
+  }
+  .scard-3{
+    width: 45%;
+  }
+
+  .About{
+    width: 25%;
+  }
+  .Services{
+    width: 25%;
+  }
+  .foot-input{
+    width: 50%;
+  }
+  .foot-icon svg{
+    width: 40px;
+  }
+}
+/* ------------------------------------------------------------------------------------ */
