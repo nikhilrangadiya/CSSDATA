@@ -168,7 +168,7 @@ header {
 .cheek>button{
   width: max-content;
   padding: 20px 20px 20px 20px;
-  margin: 40px 0px 30px 90px ;
+  margin: 40px 0px 30px 30px ;
   font-size: 20px ;
   background-color: #6bb99c;
   color: #ffffff;
@@ -650,6 +650,7 @@ margin: 15px 15px 5px 0px ;
   .container{
       width: 950px;
   }
+  
 }
 
 @media(min-width:1200px){
@@ -674,9 +675,14 @@ margin: 15px 15px 5px 0px ;
   .f1{
     width: 140%;
   }
+  .plant{
+    width: 25%;
+    top: 300px;
+  }
 
   .box{
     width: 300px;
+    
   }
 
   .card{
