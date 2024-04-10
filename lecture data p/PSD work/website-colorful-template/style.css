@@ -726,11 +726,11 @@ margin: 1.5rem 1.5rem .5rem 0rem ;
   }
   .plant{
     width: 18%;
-    /* top: 33rem;
-    right: 60rem; */
+    top: 33rem;
+    right: 60rem;
   }
 
-  /* .box{
+  .box{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -740,13 +740,13 @@ margin: 1.5rem 1.5rem .5rem 0rem ;
     border-radius: 2.7rem;
     background-color:#ffffff ;
   
-  } */
-  /* .input-box{
+  }
+  .input-box{
     padding: 1rem 4rem 1rem 1rem;
-  } */
-  /* .cheek>button{
+  }
+  .cheek>button{
     padding: 1rem 1rem;
-  } */
+  }
 
 
   .card{
@@ -756,7 +756,7 @@ margin: 1.5rem 1.5rem .5rem 0rem ;
     width: 42%;
   }
 
-  /* .table3{
+  .table3{
     position: absolute;
     left: 74rem;
     top: -23rem;
@@ -765,7 +765,7 @@ margin: 1.5rem 1.5rem .5rem 0rem ;
     position: absolute;
     right: 75rem;
     top: -23rem;
-  } */
+  }
   .s-5-m{
     width: 30%;
   }
@@ -830,9 +830,14 @@ margin: 1.5rem 1.5rem .5rem 0rem ;
   .sec-55{
     width: 55%;
   }
-  /* .lamp img{
+  .lamp img{
     width: 6.5rem;
-  } */
+  }
+  .lamp{
+    position: absolute;
+    right: 22rem;
+    bottom: 20rem;
+  }
   .window-1{
     width: 12.5rem;
   }
@@ -843,8 +848,9 @@ margin: 1.5rem 1.5rem .5rem 0rem ;
     width: 140%;
   }
   .plant{
-    width: 25%;
+    width: 23%;
     top: 30rem;
+    left: -22rem;
   }
 
   /* .box{
@@ -855,8 +861,34 @@ margin: 1.5rem 1.5rem .5rem 0rem ;
   .card{
     width: 30%;
   }
+
+  .table1{
+    padding: 0rem 0rem 2rem 0rem ;
+    position: absolute;
+    top: 17rem;
+    left: 83rem;
+  }
+  .table2{
+    padding: 0rem 0rem 2rem 0rem ;
+    position: absolute;
+    top: 17rem;
+    right: 77rem;
+  }
+  .table3{
+    position: absolute;
+    left: 101rem;
+    top: -23rem;
+  }
+  .table4{
+    position: absolute;
+    right: 95rem;
+    top: -23rem;
+  }
   .staf{
     width: 42%;
+    position: relative;
+    top: 11rem;
+    left: 36rem;
   }
 
   .s-5-m{
