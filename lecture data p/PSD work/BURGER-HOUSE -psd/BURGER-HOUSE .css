@@ -402,7 +402,17 @@ nav {
   padding: 60px 0px 50px 0px;
   justify-content: center;
   justify-content: space-between;
+  text-align: center;
+  
 }
+
+.name{
+  background-color: #bf2222;
+  display: inline;
+  
+}
+
+
 
 
 /*---------------------------- sec-five-end ---------------------- */
