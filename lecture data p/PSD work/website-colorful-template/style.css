@@ -319,7 +319,7 @@ header {
 }
 .story{
   color: #df581e;
-  /* font-family: "Montserrat"; */
+  font-family: "Montserrat";
   padding: 1rem 0rem .5rem 0rem;
 }
 .s-5-m h2{
@@ -454,7 +454,6 @@ header {
   width: 100%;
   /* padding: 6rem 0rem 0rem 0rem ; */
 }
-
 /* ----------------------------------sec-8 ------------------------------------- */
 .sec-8-m{
   text-align: center;
@@ -706,6 +705,9 @@ margin: 1.5rem 1.5rem .5rem 0rem ;
   .container{
       width: 950px;
   }
+   .html{
+    font-size: 100%;
+  }
   .sec-45{
     width: 45%;
   }
@@ -713,13 +715,22 @@ margin: 1.5rem 1.5rem .5rem 0rem ;
     width: 55%;
   }
   .lamp img{
-    width: 6.5rem;
+    width: 6rem;
+  }
+  .lamp{
+    position: absolute;
+    top: -9rem;
+    right: 14rem;
   }
   .window-1{
-    width: 12.5rem;
+    width: 10.5rem;
+    position: absolute;
+    top: 10rem;
   }
   .window-2{
-    width: 12.5rem;
+    width: 10.5rem;
+    position: absolute;
+    top: 10rem;
   }
   .f1{
     width: 140%;
@@ -752,22 +763,49 @@ margin: 1.5rem 1.5rem .5rem 0rem ;
   .card{
     width: 30%;
   }
+  .rajt{
+    width: 100%;
+  }
+  .mhat{
+    width: 100%;
+  }
   .staf{
-    width: 42%;
+    width: 40%;
+    position: relative;
+    top: 11rem;
+    left: 29rem;
+  }
+
+  .table1{
+    width: 30%;
+    padding: 0rem 0rem 2rem 0rem ;
+    position: absolute;
+    top: 17rem;
+    left: 66rem;
+  }
+  .table2{
+    width: 30%;
+    padding: 0rem 0rem 2rem 0rem ;
+    position: absolute;
+    top: 17rem;
+    right: 66rem;
   }
 
   .table3{
+    width: 20%;
     position: absolute;
-    left: 74rem;
+    left: 75rem;
     top: -23rem;
   }
   .table4{
+    width: 20%;
     position: absolute;
     right: 75rem;
     top: -23rem;
   }
   .s-5-m{
     width: 30%;
+    margin: 17rem 0rem 15rem 0rem ;
   }
   .s-5-img{
     width: 60%;
@@ -776,11 +814,33 @@ margin: 1.5rem 1.5rem .5rem 0rem ;
     width: 90%;
   }
 
+  .s5-1{
+    width: 90%;
+    position: absolute;
+    top: 27.7rem;
+    left:5rem;
+  }
+  .s5-2{
+    width: 20%;
+    position: absolute;
+    top: 9rem;
+    left:44.8rem;
+  }
+  .s5-3{
+    width: 40%;
+    position: absolute;
+    top: 15rem;
+    left:5rem;
+  }
+
   .s-6-img{
     width: 50%;
   }
   .s-6-img img{
     width: 95%;
+    position: absolute;
+    top: 10rem;
+    transform:rotate(320deg) ;
   }
   .s-6-text{
     width: 45%;
@@ -792,7 +852,19 @@ margin: 1.5rem 1.5rem .5rem 0rem ;
   .s-7-img{
     width: 55%;
   }
-
+  .s-7-img>.sec-7-i1{
+    width: 110%;
+    position: absolute;
+    top: 11rem;
+  }
+  .s-7-img>.sec-7-i2{
+    width: 50%;
+    position: absolute;
+    top: 5rem;
+  }
+  .sec-7-row{
+    padding: 2rem 8rem 3rem 7rem;
+    margin: 10rem 0rem 2rem 0rem ;  }
   .scard-1{
     width: 45%;
   }
@@ -849,7 +921,7 @@ margin: 1.5rem 1.5rem .5rem 0rem ;
   }
   .plant{
     width: 23%;
-    top: 30rem;
+    top: 31.6rem;
     left: -22rem;
   }
 
@@ -863,23 +935,27 @@ margin: 1.5rem 1.5rem .5rem 0rem ;
   }
 
   .table1{
+    width: 33%;
     padding: 0rem 0rem 2rem 0rem ;
     position: absolute;
     top: 17rem;
-    left: 83rem;
+    left: 80rem;
   }
   .table2{
+    width: 33%;
     padding: 0rem 0rem 2rem 0rem ;
     position: absolute;
     top: 17rem;
-    right: 77rem;
+    right: 79rem;
   }
   .table3{
+    width: 20%;
     position: absolute;
-    left: 101rem;
+    left: 95rem;
     top: -23rem;
   }
   .table4{
+    width: 20%;
     position: absolute;
     right: 95rem;
     top: -23rem;
@@ -888,17 +964,40 @@ margin: 1.5rem 1.5rem .5rem 0rem ;
     width: 42%;
     position: relative;
     top: 11rem;
-    left: 36rem;
+    left: 33.4rem;
   }
 
   .s-5-m{
     width: 30%;
+    margin: 27rem 0rem 20rem 0rem ;
+  }
+  .s5-1{
+    width: 90%;
+    position: absolute;
+    top: 27.7rem;
+    left:5rem;
+  }
+  .s5-2{
+    width: 20%;
+    position: absolute;
+    top: 5rem;
+    left:54.8rem;
+  }
+  .s5-3{
+    width: 45%;
+    position: absolute;
+    top: 10rem;
+    left:5rem;
   }
   .s-5-img{
     width: 60%;
   }
   .s5-1{
     width: 90%;
+  }
+  .sec-7-row{
+    padding: 6rem 8rem 22rem 7rem;
+    margin: 10rem 0rem 2rem 0rem ;
   }
 
   .s-6-img{
@@ -907,16 +1006,23 @@ margin: 1.5rem 1.5rem .5rem 0rem ;
   .s-6-img img{
     width: 95%;
   }
+  .s-6-img img{
+    width: 100%;
+    position: absolute;
+    top: 5rem;
+    transform:rotate(360deg) ;
+  }
   .s-6-text{
     width: 45%;
   }
 
   .s-7-text{
-    width: 40%;
+    width: 35%;
   }
   .s-7-img{
-    width: 55%;
+    width: 65%;
   }
+
 
   .scard-1{
     width: 45%;
