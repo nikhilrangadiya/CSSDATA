@@ -700,10 +700,12 @@ margin: 1.5rem 1.5rem .5rem 0rem ;
   padding: 0rem 2rem 0rem 0rem;
 
 }
-/* ------------------------------------------------------------------------------------ */
-@media(min-width:992px){
+
+/* -------------------------------------------------------------------------------------- */
+
+@media(min-width:768px){
   .container{
-      width: 950px;
+      width: 720px;
   }
    .html{
     font-size: 100%;
@@ -738,6 +740,197 @@ margin: 1.5rem 1.5rem .5rem 0rem ;
   .plant{
     width: 18%;
     top: 33rem;
+    right: 60rem;
+  }
+
+  .box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid .2rem #ffffff;
+    padding: 2rem 41rem;
+    margin: 3rem 0rem 5rem 0rem ;
+    border-radius: 2.7rem;
+    background-color:#ffffff ;
+  
+  }
+  .input-box{
+    padding: 1rem 4rem 1rem 1rem;
+  }
+  .cheek>button{
+    padding: 1rem 1rem;
+  }
+
+  .card{
+    width: 30%;
+  }
+  .rajt{
+    width: 100%;
+  }
+  .mhat{
+    width: 100%;
+  }
+  .staf{
+    width: 40%;
+    position: relative;
+    top: 11rem;
+    left: 29rem;
+  }
+
+  .table1{
+    width: 30%;
+    padding: 0rem 0rem 2rem 0rem ;
+    position: absolute;
+    top: 17rem;
+    left: 66rem;
+  }
+  .table2{
+    width: 30%;
+    padding: 0rem 0rem 2rem 0rem ;
+    position: absolute;
+    top: 17rem;
+    right: 66rem;
+  }
+
+  .table3{
+    width: 20%;
+    position: absolute;
+    left: 75rem;
+    top: -23rem;
+  }
+  .table4{
+    width: 20%;
+    position: absolute;
+    right: 75rem;
+    top: -23rem;
+  }
+  .s-5-m{
+    width: 30%;
+    margin: 17rem 0rem 15rem 0rem ;
+  }
+  .s-5-img{
+    width: 60%;
+  }
+  .s5-1{
+    width: 90%;
+  }
+
+  .s5-1{
+    width: 90%;
+    position: absolute;
+    top: 27.7rem;
+    left:5rem;
+  }
+  .s5-2{
+    width: 20%;
+    position: absolute;
+    top: 9rem;
+    left:44.8rem;
+  }
+  .s5-3{
+    width: 40%;
+    position: absolute;
+    top: 15rem;
+    left:5rem;
+  }
+
+  .s-6-img{
+    width: 50%;
+  }
+  .s-6-img img{
+    width: 95%;
+    position: absolute;
+    top: 10rem;
+    transform:rotate(320deg) ;
+  }
+  .s-6-text{
+    width: 45%;
+  }
+
+  .s-7-text{
+    width: 40%;
+  }
+  .s-7-img{
+    width: 55%;
+  }
+  .s-7-img>.sec-7-i1{
+    width: 110%;
+    position: absolute;
+    top: 11rem;
+  }
+  .s-7-img>.sec-7-i2{
+    width: 50%;
+    position: absolute;
+    top: 5rem;
+  }
+  .sec-7-row{
+    padding: 2rem 8rem 3rem 7rem;
+    margin: 10rem 0rem 2rem 0rem ;  }
+  .scard-1{
+    width: 45%;
+  }
+  .scard-2{
+    width: 45%;
+  }
+  .scard-3{
+    width: 45%;
+  }
+
+  .About{
+    width: 25%;
+  }
+  .Services{
+    width: 25%;
+  }
+  .foot-input{
+    width: 50%;
+  }
+  .foot-icon svg{
+    width: 4rem;
+  }
+}
+/* ------------------------------------------------------------------------------------ */
+@media(min-width:992px){
+  .container{
+      width: 950px;
+  }
+   .html{
+    font-size: 100%;
+  }
+  .row{
+    display: flex;
+    /* flex-wrap: wrap; */
+  }
+  .sec-45{
+    width: 45%;
+  }
+  .sec-55{
+    width: 55%;
+  }
+  .lamp img{
+    width: 6rem;
+  }
+  .lamp{
+    position: absolute;
+    top: -9rem;
+    right: 14rem;
+  }
+  .window-1{
+    width: 10.5rem;
+    position: absolute;
+    top: 10rem;
+  }
+  .window-2{
+    width: 10.5rem;
+    position: absolute;
+    top: 10rem;
+  }
+  .f1{
+    width: 140%;
+  }
+  .plant{
+    width: 18%;
+    top: 32.7rem;
     right: 60rem;
   }
 
@@ -929,7 +1122,10 @@ margin: 1.5rem 1.5rem .5rem 0rem ;
     width: 30rem;
     
   } */
-
+  /* .box{
+    display: flex;
+    flex-direction: row;
+  } */
   .card{
     width: 30%;
   }
