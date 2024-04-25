@@ -978,7 +978,7 @@ margin: 1.5rem 1.5rem .5rem 0rem ;
   .s9img2{
     position: absolute;
     top:8rem;
-    left:65rem;
+    left:58rem;
   }
   .s9img3{
     position: absolute;
@@ -1251,6 +1251,8 @@ margin: 1.5rem 1.5rem .5rem 0rem ;
   }
   .scard-3{
     width: 45%;
+    display: flex;
+    flex-direction: row;
   }
 
   .s9text{
@@ -1299,7 +1301,7 @@ margin: 1.5rem 1.5rem .5rem 0rem ;
   .s9img2{
     position: absolute;
     top:9rem;
-    right:1rem;
+    left:84rem;
   }
   .s9img3{
     position: absolute;
@@ -1535,6 +1537,8 @@ margin: 1.5rem 1.5rem .5rem 0rem ;
   }
   .scard-3{
     width: 45%;
+    display: flex;
+    flex-direction: row;
   }
 
   .s9text{
@@ -1583,7 +1587,7 @@ margin: 1.5rem 1.5rem .5rem 0rem ;
   .s9img2{
     position: absolute;
     top:10rem;
-    right:1.5rem;
+    left:100rem;
   }
   .s9img3{
     position: absolute;
