@@ -7,11 +7,14 @@
     <title>Restaurant</title>
     <link rel="stylesheet" href="./style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
@@ -25,10 +28,11 @@
                 </div>
                 <div class="links">
                     <ul>
-                        <li><a href="#">HOME</a></li>
-                        <li><a href="#">MENU</a></li>
-                        <li><a href="#">ABOUT US</a></li>
-                        <li><a href="#">CONTACT</a></li>
+                        <li><a href="#home">HOME</a></li>
+                        <li><a href="#menu">MENU</a></li>
+                        <li><a href="#about">ABOUT US</a></li>
+                        <li><a href="#review">REVIEW</a></li>
+                        <li><a href="#contact">CONTACT</a></li>
                     </ul>
                 </div>
                 <div class="link1">
@@ -43,7 +47,7 @@
     </div>
 
     <!--------------------------- -sec-start------------------------------------ -->
-    <section class="sec">
+    <section class="sec" id="home">
         <div class="container">
             <div class="sec-row row">
                 <div class="sec-45">
@@ -55,7 +59,7 @@
                         <p class="bold">
                             Your Restaurant is Waiting For You.
                         </p>
-                        <p class="p1" >
+                        <p class="p1">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
                             ut.
                         </p>
@@ -114,7 +118,7 @@
         </div>
     </section>
     <!-- -------------------------------------------------------------------------- -->
-    <section class="sec-3">
+    <section class="sec-3" id="menu">
         <div class="container">
             <div class="s-3-m">
                 <p>Delicious</p>
@@ -171,7 +175,7 @@
     </section>
 
     <!-- -------------------------------------------------------------------------------- -->
-    <section class="sec-5">
+    <section class="sec-5" id="about">
         <div class="container">
             <div class="sec-5-row row">
                 <div class="s-5-m">
@@ -244,7 +248,7 @@
 
     <!-- ---------------------------------------------------------------------------- -->
 
-    <section class="sec-8">
+    <section class="sec-8" id="review">
         <div class="container">
             <div class="sec-8-m">
                 <p>What our</p>
@@ -312,7 +316,7 @@
     </section>
 
     <!-- ---------------------------------------------------------------------- -->
-    <section class="sec-9">
+    <section class="sec-9" id="contact">
         <div class="container">
             <div class="sec-9-main posi-rel">
                 <div class="s9text row">
@@ -429,6 +433,20 @@
 
     </footer>
 
+
+
+    <!-- <script>
+        const navbar = document.querySelector('.navbar');
+        const offset = 200; // adjust this value to set the scroll point
+
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > offset) {
+                navbar.classList.add('sticky');
+            } else {
+                navbar.classList.remove('sticky');
+            }
+        });
+    </script> -->
 </body>
 
 </html>
