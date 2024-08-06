@@ -6,6 +6,16 @@
 html{
   font-size: 62.5%;
 }
+.head
+{
+  width: 100%;
+}
+.navbar{
+  position: fixed!important;
+  background-color: #12202f;
+  z-index: 9;
+  width: 1200px;
+}
 
 
 .container {
@@ -53,11 +63,7 @@ header {
   align-items: center;
   font-family: "Montserrat";
 }
-.navbar {
-  position: sticky;
-  top: 0;
-  z-index: 1;
-}
+
 .logo h1 {
   color: white;
   font-size: 2.5rem;
@@ -1348,8 +1354,15 @@ margin: 1.5rem 1.5rem .5rem 0rem ;
     margin:4rem 0rem 2rem 0rem  ;
   }
 }
+@media screen and (max-width:1400px)
+{
+  .container
+  {
+    width: 1200px;
+  }
+}
 
-@media(min-width:1200px){
+@media(max-width:1200px){
   .container{
     width: 1150px;
   }
